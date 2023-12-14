@@ -41,6 +41,7 @@
 		4DB4C1C82B20E105002D5F8B /* animals2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4C1C72B20E105002D5F8B /* animals2.json */; };
 		4DB4C1CA2B20E2A9002D5F8B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4C1C92B20E2A9002D5F8B /* VideoModel.swift */; };
 		4DB4C1CC2B20E311002D5F8B /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB4C1CB2B20E311002D5F8B /* VideoListItemView.swift */; };
+		BCD546312B2A93CB002B73CB /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD546302B2A93CB002B73CB /* AnimalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		4DB4C1C72B20E105002D5F8B /* animals2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animals2.json; sourceTree = "<group>"; };
 		4DB4C1C92B20E2A9002D5F8B /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		4DB4C1CB2B20E311002D5F8B /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
+		BCD546302B2A93CB002B73CB /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			children = (
 				4DB4C19C2B1E4528002D5F8B /* CoverImageView.swift */,
 				4DB4C1A42B1E4CBF002D5F8B /* AnimalListItemView.swift */,
+				BCD546302B2A93CB002B73CB /* AnimalView.swift */,
 				4DB4C1C52B1FE2DA002D5F8B /* MapView.swift */,
 				4DB4C1CB2B20E311002D5F8B /* VideoListItemView.swift */,
 				4D95E6932B222ACB00E3891A /* MapExampleView.swift */,
@@ -308,6 +311,7 @@
 				4D8C0F6D2B1E432B00FA1163 /* MainView.swift in Sources */,
 				4DB4C19D2B1E4528002D5F8B /* CoverImageView.swift in Sources */,
 				4D95E6942B222ACB00E3891A /* MapExampleView.swift in Sources */,
+				BCD546312B2A93CB002B73CB /* AnimalView.swift in Sources */,
 				4DB4C1A92B1F8D6F002D5F8B /* LocationModel.swift in Sources */,
 				4DB4C1A02B1E4724002D5F8B /* CoverImageModel.swift in Sources */,
 				4DB4C1A72B1E4E7D002D5F8B /* AnimalModel.swift in Sources */,

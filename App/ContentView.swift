@@ -20,7 +20,18 @@ struct ContentView: View {
                 
                 ForEach(animals) { animal in
                     AnimalListItemView(animal: animal)
+                        .onTapGesture {
+                            AnimalView(animal: animal)
+                        }
                 }
+                VStack{
+                    Image("launch-screen-image")
+                        .resizable()
+                        .scaledToFit()
+                    Text("Copyright © Samantha Castillo")
+                    Text("Used a sample to connect everything")
+                }
+                .foregroundColor(.gray)
             }
             .navigationTitle("Africa")
             .navigationBarTitleDisplayMode(.large)
